@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NASA API</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <label for="api-select">Choose an API:</label>
+
+    <select name="api" id="api-select">
+        <option value="">--Please choose an option--</option>
+        <option value="APOD">APOD</option>
+        <option value="Asteroids NeoWs">Asteroids NeoWs</option>
+     
+    </select>
+    <h1>
+      NASA API
+    </h1>
+    <input id="searchTerm" type="text" placeholder="Enter search term" />
+    <button id="search">
+      Search
+    </button>
+    <p class ="explanation"></p>
+    <div id="content">
+      
+    </div>
+  </body>
+</html>
