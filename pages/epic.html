@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>NASA API APOD</title>
+    <title>NASA API EPIC</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,23 +10,26 @@
     <link rel="stylesheet" href="/style.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="/scriptepic.js" defer></script>
   </head>
   <body>
    <nav>
        <ul>
            <li><a href="http://127.0.0.1:5500/pages/earth.html">EARTH</a></li>
            <li><a href="http://127.0.0.1:5500/pages/mars.html">MARS</a></li>
-           <li><a href="http://127.0.0.1:5500/pages/epic.html">EPIC</a></li>
+           <li><a href="http://127.0.0.1:5500/index.html">APOD</a></li>
            <li></li>
        </ul>
    </nav>
      
     </select>
     <h1>
-    NASA API APOD  
+    NASA API EPIC 
     </h1>
-    <h3>Select a date and it will display the NASA's image of the day from that date</h3>
+    <h3>The EPIC API provides information on the daily imagery collected by DSCOVR's 
+        Earth Polychromatic Imaging Camera (EPIC) instrument. Uniquely positioned at the Earth-Sun Lagrange point, 
+        EPIC provides full disc imagery of the Earth and captures unique perspectives of certain astronomical events such as lunar 
+    transits using a 2048x2048 pixel CCD (Charge Coupled Device) detector coupled to a 30-cm aperture Cassegrain telescope. </h3>
     <input id="searchTerm" type="text" placeholder="Enter a date (yyyy-mm-dd)" />
     <button id="search">
       Search

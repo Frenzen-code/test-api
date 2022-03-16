@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>NASA API APOD</title>
+    <title>NASA API Mars Rover Photos</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="/style.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="./scriptmars.js" defer></script>
   </head>
   <body>
    <nav>
        <ul>
+           <li><a href="http://127.0.0.1:5500/index.html">APOD</a></li>
            <li><a href="http://127.0.0.1:5500/pages/earth.html">EARTH</a></li>
-           <li><a href="http://127.0.0.1:5500/pages/mars.html">MARS</a></li>
            <li><a href="http://127.0.0.1:5500/pages/epic.html">EPIC</a></li>
            <li></li>
        </ul>
@@ -24,10 +24,13 @@
      
     </select>
     <h1>
-    NASA API APOD  
+    NASA API Mars Rover Photos
     </h1>
-    <h3>Select a date and it will display the NASA's image of the day from that date</h3>
-    <input id="searchTerm" type="text" placeholder="Enter a date (yyyy-mm-dd)" />
+    <h3>Here are the photos currently available from the Rover mars mission.</h3>
+    <input id="page" type="text" placeholder="Select a page from the database" />
+
+    
+
     <button id="search">
       Search
     </button>

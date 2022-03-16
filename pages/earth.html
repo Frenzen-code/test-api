@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="/style.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="./scriptearth.js" defer></script>
   </head>
   <body>
    <nav>
        <ul>
-           <li><a href="http://127.0.0.1:5500/pages/earth.html">EARTH</a></li>
+           <li><a href="http://127.0.0.1:5500/index.html">APOD</a></li>
            <li><a href="http://127.0.0.1:5500/pages/mars.html">MARS</a></li>
            <li><a href="http://127.0.0.1:5500/pages/epic.html">EPIC</a></li>
            <li></li>
@@ -24,10 +24,13 @@
      
     </select>
     <h1>
-    NASA API APOD  
+    NASA API EARTH  (currently offline)
     </h1>
-    <h3>Select a date and it will display the NASA's image of the day from that date</h3>
-    <input id="searchTerm" type="text" placeholder="Enter a date (yyyy-mm-dd)" />
+    <h3>Select latitude and longitude and it will display a satelite imagery</h3>
+    <input id="latitude" type="text" placeholder="Enter a latitude" />
+    <input id="longitude" type="text" placeholder="Enter a longitude" />
+    
+
     <button id="search">
       Search
     </button>
